@@ -66,5 +66,10 @@ public class CustomList extends ArrayAdapter<City> {
 
 
     public void delCity(City city) {
+        if(cities.contains(city)) {
+            cities.remove(city);
+        } else {
+            throw new IllegalArgumentException("City is not in list");
+        }
     }
 }

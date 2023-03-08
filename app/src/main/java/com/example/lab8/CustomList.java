@@ -12,6 +12,8 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
+import kotlin.NotImplementedError;
+
 public class CustomList extends ArrayAdapter<City> {
 
     private ArrayList<City> cities;
@@ -63,5 +65,6 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
 
-
+    public void delCity(City city) {
+    }
 }

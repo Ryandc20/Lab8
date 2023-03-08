@@ -53,4 +53,15 @@ public class CustomList extends ArrayAdapter<City> {
         this.cities.add(city);
     }
 
+    /**
+     * Not implemented
+     * @param city
+     * @return
+     */
+    public boolean hasCity(City city) {
+        return true;
+    }
+
+
+
 }

@@ -72,4 +72,8 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException("City is not in list");
         }
     }
+
+    public int countCities() {
+        return -1;
+    }
 }
